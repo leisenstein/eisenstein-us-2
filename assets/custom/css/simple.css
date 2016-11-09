@@ -1070,7 +1070,7 @@ textarea {
     .inner-content .inner-section {
         padding: 30px 14px !important;
     }
-    ul.timeline-vert > li > .timeline-panel {
+   /* ul.timeline-vert > li > .timeline-panel {
         width: 100% !important;
     }
     #timeline-vertical .timeline-vert .timeline-badge,
@@ -1079,7 +1079,7 @@ textarea {
     }
     #timeline-vertical .timeline-vert .timeline-panel:before {
         border-color: transparent !important;
-    }
+    }*/
     .cd-headline.clip .cd-words-wrapper::after {
         top: 2px !important;
     }
