@@ -1342,6 +1342,13 @@ textarea {
 }
 /* Vertical Timeline */
 
+.resumeList > li {
+    font-size: 10px;
+}
+/*.resumeList {
+    list-style-type: circle;
+}*/
+
 #timeline-vertical .btn {
     margin-right: 0;
 }
@@ -1364,7 +1371,7 @@ textarea {
     margin-left: -0.5px;
 }
 #timeline-vertical .timeline-vert li {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     position: relative;
 }
 #timeline-vertical .timeline-vert li:before,
@@ -1560,6 +1567,7 @@ textarea {
 .timeline-light .timeline-panel h6 {
     border-left: 1px solid #e7e7e7;
 }
+
 .timeline-light li .timeline-time {
     background-color: #bfbfbf;
 }
