@@ -1383,7 +1383,7 @@ textarea {
     clear: both;
 }
 #timeline-vertical .timeline-vert li .timeline-photo {
-    min-height: 120px;
+    min-height: 180px;
 }
 #timeline-vertical .timeline-vert li .timeline-time {
     padding: 6px 14px;
@@ -1629,31 +1629,31 @@ textarea {
 }
 .timeline-bg01 {
     background: url("../images/timeline-1.jpg");
-    background-position: center;
+    background-position: cover;
     background-size: cover;
 }
 .timeline-bg01-01 {
-    background: url("../images/timeline-1-01.jpg");
-    background-position: center;
+    background: url("../images/Concourse-710.jpg");
+    background-position: top;
     background-size: cover;
 }
 .timeline-bg02 {
-    background: url("../images/timeline-2.jpg");
-    background-position: center;
+    background: url("../images/gp-710.png");
+    background-position: top;
     background-size: cover;
 }
 .timeline-bg02-01 {
-    background: url("../images/timeline-2-01.jpg");
+    background: url("../images/alora-710.png");
     background-position: center;
     background-size: cover;
 }
 .timeline-bg03 {
-    background: url("../images/timeline-3.jpg");
+    background: url("../images/wildwood-710.png");
     background-position: center;
     background-size: cover;
 }
 .timeline-bg03-01 {
-    background: url("../images/timeline-3-01.jpg");
+    background: url("../images/piedmont-710.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -1663,8 +1663,8 @@ textarea {
     background-size: cover;
 }
 .timeline-bg04-01 {
-    background: url("../images/timeline-4-01.jpg");
-    background-position: center;
+    background: url("../images/Concourse-710.jpg");
+    background-position: top;
     background-size: cover;
 }
 /* Counts Block */
