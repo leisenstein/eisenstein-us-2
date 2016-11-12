@@ -1,9 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,300,400italic,500,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,500,700);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-/*------------------------------------------------------------------
-[Color Scheme / Colors, textures]
-*/
+
+
 
 .e-bg-light-texture {
     background: url("../images/backgrounds/dark_fish_skin.png");
@@ -293,11 +292,9 @@
 .bg-color32 {
     background-color: #070707 !important;
 }
-/*------------------------------------------------------------------
-[Typography]
-*/
-/* Headings Fonts variables */
-/* Heading font one */
+
+
+
 
 .font-accident-one-bold {
     font-family: "Montserrat", sans-serif;
@@ -309,7 +306,7 @@
     font-weight: 400;
     font-style: normal;
 }
-/* Heading font two */
+
 
 .font-accident-two-light {
     font-family: "Dosis", sans-serif;
@@ -327,7 +324,7 @@
     font-family: "Dosis", sans-serif;
     font-weight: 700;
 }
-/* Regular font */
+
 
 .font-regular-light {
     font-family: "Raleway", sans-serif;
@@ -354,7 +351,7 @@
     font-weight: 700;
     font-style: normal;
 }
-/* Headings */
+
 
 h2 {
     font-size: 48px;
@@ -388,7 +385,7 @@ h6 a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     display: initial;
 }
-/* Paragraphs */
+
 
 .small {
     font-size: 12px;
@@ -399,9 +396,8 @@ h6 a {
 .superheading {
     font-size: 48px;
 }
-/*------------------------------------------------------------------
-[Buttons]
-*/
+
+
 
 .btn-darker,
 .btn-blk,
@@ -564,9 +560,8 @@ h6 a {
     font-size: 11px;
     padding: 3px 9px 2px 9px;
 }
-/*------------------------------------------------------------------
-[4. Basic Styles]
-*/
+
+
 
 body {
     display: block;
@@ -948,9 +943,8 @@ textarea {
     letter-spacing: 2px;
     font-size: 11px;
 }
-/*------------------------------------------------------------------
-[13. Media Query]
-*/
+
+
 
 @media (max-width: 1200px) {
     .boxed .content-wrap {
@@ -1096,9 +1090,8 @@ textarea {
         padding-top: 40px !important;
     }
 }
-/*------------------------------------------------------------------
-[VCard Modules]
-*/
+
+
 
 .content-wrap {
     -webkit-overflow-scrolling: touch;
@@ -1340,7 +1333,8 @@ textarea {
     color: #aaa;
     margin-top: 12px;
 }
-/* Vertical Timeline */
+
+
 
 .resumeList > li {
     font-size: 10px;
@@ -1667,7 +1661,8 @@ textarea {
     background-position: top;
     background-size: cover;
 }
-/* Counts Block */
+
+
 
 .bg-light .counts {
     color: #ffffff;
@@ -1918,7 +1913,8 @@ textarea {
     border-color: #e74c3c transparent;
     opacity: 1;
 }
-/* Portfolio hover */
+
+
 
 .item-wrap {
     margin-bottom: 10px;
@@ -2109,9 +2105,8 @@ figure.effect-goliath:hover p {
 .captions:hover img {
     opacity: 0.7 !important;
 }
-/*------------------------------------------------------------------
-[Homepage Sections]
-*/
+
+
 
 #homesection h3 {
     margin: 0;
@@ -2269,9 +2264,8 @@ figure.effect-goliath:hover p {
 #homesection .clients a:hover img {
     opacity: 1;
 }
-/*------------------------------------------------------------------
-[Inner Pages Sections]
-*/
+
+
 
 .inner-content .inner-section {
     padding: 50px 50px;
@@ -2498,9 +2492,8 @@ figure.effect-goliath:hover p {
     font-size: 13px;
     font-weight: 600;
 }
-/*------------------------------------------------------------------
-[Footer]
-*/
+
+
 
 footer {
     padding-bottom: 18px !important;
@@ -2589,9 +2582,7 @@ footer .copyrights p {
     font-size: 11px;
     color: #dfdfdf;
 }
-/*------------------------------------------------------------------
-[Google Map]
-*/
+
 
 #google-map {
     width: 100%;
@@ -2602,7 +2593,8 @@ footer .copyrights p {
 .bigmap {
     height: 400px !important;
 }
-/* Google map Slide-out */
+
+
 
 #gm-panel {
     width: 100%;
@@ -2661,4 +2653,51 @@ footer .copyrights p {
 .boxed {
     background-image: url("../images/backgrounds/dark_fabric.png");
 }
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ui-item{
+    height:110px;
+    width:110px;
+    border-radius:100%;
+    margin:20px auto;
+    background:#fff;
+    text-align:center;
+    box-shadow:inset 0px 0px 15px rgba(0,0,0,0.3);
+    border:2px solid #fff;
+}
+@media(max-width:767px){
+     .ui-item{
+        background: transparent;
+        height: 70px;
+        width: 70px;
+        box-shadow: none;
+        border:0px;
+    }
+    .ui-item h6 a{
+        color:#fff;
+    }
+}
+
+
+ .ui-item  img{
+    max-width:40px;
+    margin:0 auto;
+    margin-top:20px;
+}

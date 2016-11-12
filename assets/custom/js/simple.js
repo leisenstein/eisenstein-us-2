@@ -19,7 +19,7 @@
     });
 
     $(document).ready(function () {
-
+        $('[data-toggle="tooltip"]').tooltip();
         pageScripts();
 
     });
@@ -58,10 +58,10 @@
         })();
 
         /* Animated Counter */
-        $('.count-container span').counterUp({
-            delay: 10, // the delay time in ms
-            time: 3000 // the speed time in ms
-        });
+        // $('.count-container span').counterUp({
+        //     delay: 10, // the delay time in ms
+        //     time: 3000 // the speed time in ms
+        // });
 
 
         /* Magnific Popup */
